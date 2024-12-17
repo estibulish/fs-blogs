@@ -1,3 +1,9 @@
-.DS_Store
-node_modules
-.vitepress/dist
+# 首先忽略所有文件
+*
+# 忽略所有目录
+*/
+
+# 取消忽略 dist 目录
+!dist/
+# 取消忽略 dist 目录下的所有文件
+!dist/**
