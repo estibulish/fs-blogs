@@ -1,0 +1,91 @@
+{
+  "hash": "e12026df",
+  "configHash": "003b7fa3",
+  "lockfileHash": "054e356a",
+  "browserHash": "524d070a",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "eef5dc2e",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "fcf64f3e",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "dc5dd4c6",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "6258e7e0",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "596722e3",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "b69b80ec",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "2a39c2a8",
+      "needsInterop": false
+    },
+    "vitepress-plugin-image-viewer": {
+      "src": "../../../node_modules/vitepress-plugin-image-viewer/lib/viewer.js",
+      "file": "vitepress-plugin-image-viewer.js",
+      "fileHash": "28a1ffcd",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../../node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "236b83b1",
+      "needsInterop": false
+    },
+    "vue-demi": {
+      "src": "../../../node_modules/vitepress/lib/vue-demi.mjs",
+      "file": "vue-demi.js",
+      "fileHash": "fb412c7b",
+      "needsInterop": false
+    },
+    "canvas-confetti": {
+      "src": "../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "9d49c0b0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-4AXLHK7A": {
+      "file": "chunk-4AXLHK7A.js"
+    },
+    "chunk-6KX2LXAH": {
+      "file": "chunk-6KX2LXAH.js"
+    },
+    "chunk-UYGRQW4R": {
+      "file": "chunk-UYGRQW4R.js"
+    },
+    "chunk-4ZO7JJ6Q": {
+      "file": "chunk-4ZO7JJ6Q.js"
+    },
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}
