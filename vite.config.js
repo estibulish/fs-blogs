@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite'
 import vueSetupExtend from 'vite-plugin-vue-setup-extend' // 设置neme属性
 export default defineConfig({
+  base: '/fs-blogs/',
   plugins: [vueSetupExtend()],
   server: {
     proxy: {
