@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v3
       
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       
       - name: Build
         run: npm run docs:build # 确保这个命令在你的 package.json 中已定义
