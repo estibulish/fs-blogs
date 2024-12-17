@@ -1,0 +1,19 @@
+import{_ as a,c as s,o as n,aT as p}from"./chunks/framework.qpm8FIA8.js";const v=JSON.parse('{"title":"Git 标签","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/git/git-tag.md","filePath":"frontend/git/git-tag.md","lastUpdated":1711621612000}'),t={name:"frontend/git/git-tag.md"},e=p(`<h1 id="git-标签" tabindex="-1">Git 标签 <a class="header-anchor" href="#git-标签" aria-label="Permalink to &quot;Git 标签&quot;">​</a></h1><p>如果你达到一个重要的阶段，并希望永远记住那个特别的提交快照，你可以使用 git tag 给它打上标签。</p><p>比如说，我们想为我们的 runoob 项目发布一个&quot;1.0&quot;版本。 我们可以用 git tag -a v1.0 命令给最新一次提交打上（HEAD）&quot;v1.0&quot;的标签。</p><p>-a 选项意为&quot;创建一个带注解的标签&quot;。 不用 -a 选项也可以执行的，但它不会记录这标签是啥时候打的，谁打的，也不会让你添加个标签的注解。 我推荐一直创建带注解的标签。</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>$ git tag -a v1.0</span></span></code></pre></div><p>当你执行 git tag -a 命令时，Git 会打开你的编辑器，让你写一句标签注解，就像你给提交写注解一样。</p><p>现在，注意当我们执行 git log --decorate 时，我们可以看到我们的标签了：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>*d5e9fc2 (HEAD -&gt; master) Merge branch &#39;change_site&#39;</span></span>
+<span class="line"><span>|\\  </span></span>
+<span class="line"><span>| * 7774248 (change_site) changed the runoob.php</span></span>
+<span class="line"><span>* | c68142b 修改代码</span></span>
+<span class="line"><span>|/  </span></span>
+<span class="line"><span>*c1501a2 removed test.txt、add runoob.php</span></span>
+<span class="line"><span>*3e92c19 add test.txt</span></span>
+<span class="line"><span>*3b58100 第一次版本提交</span></span></code></pre></div><p>如果我们忘了给某个提交打标签，又将它发布了，我们可以给它追加标签。</p><p>例如，假设我们发布了提交 85fc7e7(上面实例最后一行)，但是那时候忘了给它打标签。 我们现在也可以：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>$ git tag -a v0.9 85fc7e7</span></span>
+<span class="line"><span>$ git log --oneline --decorate --graph</span></span>
+<span class="line"><span>*d5e9fc2 (HEAD -&gt; master) Merge branch &#39;change_site&#39;</span></span>
+<span class="line"><span>|\\  </span></span>
+<span class="line"><span>| * 7774248 (change_site) changed the runoob.php</span></span>
+<span class="line"><span>* | c68142b 修改代码</span></span>
+<span class="line"><span>|/  </span></span>
+<span class="line"><span>*c1501a2 removed test.txt、add runoob.php</span></span>
+<span class="line"><span>*3e92c19 add test.txt</span></span>
+<span class="line"><span>*3b58100 (tag: v0.9) 第一次版本提交</span></span></code></pre></div><p>如果我们要查看所有标签可以使用以下命令：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>$ git tag</span></span>
+<span class="line"><span>v0.9</span></span>
+<span class="line"><span>v1.0</span></span></code></pre></div><p>指定标签信息命令：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>git tag -a tagname -m &quot;runoob.com标签&quot;</span></span></code></pre></div><p>PGP签名标签命令：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>git tag -s tagname -m &quot;runoob.com标签&quot;</span></span></code></pre></div>`,17),i=[e];function c(l,o,d,g,h,r){return n(),s("div",null,i)}const b=a(t,[["render",c]]);export{v as __pageData,b as default};

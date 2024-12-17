@@ -3,7 +3,11 @@
 # 忽略所有目录
 */
 
-# 取消忽略 dist 目录
+# 取消忽略 .vitepress 目录
+!.vitepress/
+# 重新忽略 .vitepress 下除了 dist 以外的所有内容
+.vitepress/*
+# 取消忽略 .vitepress/dist 目录
 !.vitepress/dist/
-# 取消忽略 dist 目录下的所有文件
+# 取消忽略 .vitepress/dist 目录下的所有文件
 !.vitepress/dist/**
