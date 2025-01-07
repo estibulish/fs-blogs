@@ -1,0 +1,21 @@
+{
+  "name": "publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node upload.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "scp2": "^0.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "consola": "^3.2.3",
+    "inquirer": "^8.0.0",
+    "ora": "^5.1.0"
+  }
+}
