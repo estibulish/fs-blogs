@@ -137,4 +137,35 @@ git push -u origin main
 
 ```
 
+## 部署到其他域名
+
+首先在你的域名提供商那里添加 DNS 记录：
+如果要使用 apex 域名 (如 example.com)，添加 A 记录指向 GitHub Pages 的 IP:
+
+  185.199.108.153
+  185.199.109.153
+  185.199.110.153
+  185.199.111.153
+
+
+如果要使用子域名 (如 docs.example.com)，添加 CNAME 记录指向你的 GitHub Pages 地址 (<username>.github.io)
+
+在你的项目根目录创建 public 文件夹(如果没有的话)，然后在里面创建一个名为 CNAME 的文件(没有扩展名)：
+
+```
+public/CNAME
+example.com
+```
+在 GitHub 仓库设置中：
+进入 Settings > Pages
+在 "Custom domain" 部分输入你的域名
+建议勾选 "Enforce HTTPS" 选项
+修改部署工作流文件（如果你使用 GitHub Actions），确保它不会覆盖 CNAME 文件。
+等待 DNS 生效（通常需要几分钟到 48 小时不等），之后就可以通过你的自定义域名访问网站了。
+注意：
+DNS 更改可能需要一些时间才能全球生效
+确保你的域名已经正确注册并且 DNS 记录已经正确配置
+如果使用 HTTPS，需要等待 GitHub 为你的域名颁发 SSL 证书
+
+
 这个 Markdown 文档包含了完整的部署流程，你可以将它保存在项目的 `docs` 目录下，方便以后查阅。文档使用了清晰的章节结构，包含了所有必要的配置文件和命令，以及重要的注意事项。
