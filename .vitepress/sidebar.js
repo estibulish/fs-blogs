@@ -55,6 +55,7 @@ export default {
                 { text: 'Git 查看提交历史', link: '/frontend/git/git-commit-history' },
                 { text: 'Git 标签', link: '/frontend/git/git-tag' },
                 { text: 'Git 远程仓库(Github)', link: '/frontend/git/git-remote-repo' },
+                { text: 'vitepress项目部署到github', link: '/frontend/git/deploy_github' },
             ]
         }, {
             text: '配置篇',
