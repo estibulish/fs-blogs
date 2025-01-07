@@ -14,7 +14,7 @@ export default defineConfig({
   description: "技术方博客,前端编程笔记",
   head: head,
   // 设定 public 根目录
-  base: '/blogs/',
+  base: '/fs-blogs/',
   // 当设置为 true 时，VitePress 将从 URL 中删除 .html 后缀
   cleanUrls: false,
   lastUpdated: true,
