@@ -124,4 +124,14 @@ export default {
             link: '/books/friends',
         }
     ],
+    '/other/': [
+        {
+            text: '公务员考试',
+            collapsible: true,
+            collapsed: false,
+            items: [
+                { text: '行测', link: '/other/information/travel_test' },
+            ]
+        }
+    ],
 }

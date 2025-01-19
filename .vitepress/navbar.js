@@ -12,7 +12,12 @@ export default [
 
         ]
     },
-    { text: '示例', link: '/examples/ElButton/base' },
+    { 
+        text: '其他',
+        items: [
+            { text: '公务员考试资料', link: '/other/information/travel_test' },
+        ]
+    },
     { 
         text: '书籍',
         items: [
