@@ -29,4 +29,3 @@ features:
     details: 记录生活里程
 ---
 <Confetti />
-<Weather />

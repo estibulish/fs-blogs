@@ -4,7 +4,8 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "deploy": "npm run docs:build",
-    "commit": "git add . & git commit -m '内容更新' & git push"
+    "commit": "git add . & git commit -m '内容更新' & git push",
+    "publish": "npm run deploy && npm run commit"
   },
   "type": "module",
   "devDependencies": {
