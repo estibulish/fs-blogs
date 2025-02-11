@@ -134,4 +134,15 @@ export default {
             ]
         }
     ],
+    '/client/': [
+        {
+            text: '客户端',
+            collapsible: true,
+            collapsed: false,
+            items: [
+                { text: 'Android Studio 配置国内镜像源、HTTP代理', link: '/client/android/configuring_agents' },
+            ]
+        }
+    ],
+
 }

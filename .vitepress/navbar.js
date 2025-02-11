@@ -12,6 +12,13 @@ export default [
 
         ]
     },
+    {
+        text: '客户端',
+        items:[
+            { text: 'Android', link: '/client/android/configuring_agents' },
+            { text: 'iOS', link: '/client/ios/' },
+        ]
+    },
     { 
         text: '其他',
         items: [
