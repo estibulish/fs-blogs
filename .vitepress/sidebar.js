@@ -56,6 +56,7 @@ export default {
                 { text: 'Git 标签', link: '/frontend/git/git-tag' },
                 { text: 'Git 远程仓库(Github)', link: '/frontend/git/git-remote-repo' },
                 { text: 'vitepress项目部署到github', link: '/frontend/git/deploy_github' },
+                { text: 'git教程', link: '/frontend/git/git-tutorial' },
             ]
         }, {
             text: '配置篇',
@@ -131,6 +132,13 @@ export default {
             collapsed: false,
             items: [
                 { text: '行测', link: '/other/information/travel_test' },
+            ]
+        },{
+            text: '工具',
+            collapsible: true,
+            collapsed: false,
+            items: [
+                { text: '免费图片上传网站', link: '/other/tools/image_upload_tool.md' },
             ]
         }
     ],
