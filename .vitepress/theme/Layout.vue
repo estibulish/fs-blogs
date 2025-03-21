@@ -71,59 +71,59 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
   transform: none !important;
 }
 
-html:not(.dark) {
-  .Layout {
-    background-image: url(/bgPicture-Bz3QDvNB.webp);
-  }
-  .VPDoc .container > .content, .VPDocAside .VPDocAsideOutline  {
-    background-color: #fff;
-    border-radius: 4px;
-    border: 2px dashed var(--vp-c-brand-1);
-    padding-bottom: 32px;
-  }
+// html:not(.dark) {
+//   .Layout {
+//     background-image: url(/bgPicture-Bz3QDvNB.webp);
+//   }
+//   .VPDoc .container > .content, .VPDocAside .VPDocAsideOutline  {
+//     background-color: #fff;
+//     border-radius: 4px;
+//     border: 2px dashed var(--vp-c-brand-1);
+//     padding-bottom: 32px;
+//   }
 
-  .VPDoc {
-    padding-bottom: 48px;
-  }
+//   .VPDoc {
+//     padding-bottom: 48px;
+//   }
 
-  .VPDocAside .VPDocAsideOutline {
-    padding: 10px;
-  }
+//   .VPDocAside .VPDocAsideOutline {
+//     padding: 10px;
+//   }
 
   
-  .VPDocAside .content  {
-    border-left: none;
-  }
+//   .VPDocAside .content  {
+//     border-left: none;
+//   }
   
-  .VPNavBarTitle .title {
-    border-bottom: none;
-  }
+//   .VPNavBarTitle .title {
+//     border-bottom: none;
+//   }
   
-  .VPFooter {
-    border-top: none!important;
-  }
+//   .VPFooter {
+//     border-top: none!important;
+//   }
   
-  .VPNavBar .divider {
-    display: none;
-  }
+//   .VPNavBar .divider {
+//     display: none;
+//   }
   
-  .VPNavBar {
-    background-image: radial-gradient(transparent 1px, var(--vp-c-bg) 1px);
-    background-size: 4px 4px;
-    backdrop-filter: saturate(50%) blur(4px);
-    -webkit-backdrop-filter: saturate(50%) blur(4px);
-  }
+//   .VPNavBar {
+//     background-image: radial-gradient(transparent 1px, var(--vp-c-bg) 1px);
+//     background-size: 4px 4px;
+//     backdrop-filter: saturate(50%) blur(4px);
+//     -webkit-backdrop-filter: saturate(50%) blur(4px);
+//   }
 
-  .VPFeature {
-    border: 1px solid var(--vp-c-brand-1);
-    transition: transform 0.2s ease-in-out;
-    &:hover {
-      transform: translateY(-10px);
-    }
-  }
+//   .VPFeature {
+//     border: 1px solid var(--vp-c-brand-1);
+//     transition: transform 0.2s ease-in-out;
+//     &:hover {
+//       transform: translateY(-10px);
+//     }
+//   }
 
-  .VPDoc.has-aside .content-container {
-    margin-top: 32px;
-  }
-}
+//   .VPDoc.has-aside .content-container {
+//     margin-top: 32px;
+//   }
+// }
 </style>

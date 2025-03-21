@@ -139,6 +139,7 @@ export default {
             collapsed: false,
             items: [
                 { text: '免费图片上传网站', link: '/other/tools/image_upload_tool.md' },
+                { text: '表情含义', link: '/other/tools/emotion.md' },
             ]
         }
     ],

@@ -5,14 +5,14 @@
     --vp-home-hero-image-filter: blur(72px);
 }
 
-html:not(.dark) {
-    --vp-nav-bg-color: transparent;
-    --vp-local-search-bg: #fff;
-    .VPSidebar:not(.open) {
-        --vp-sidebar-bg-color: transparent;
-    }
-    --vp-c-bg: transparent;
-}
+// html:not(.dark) {
+//     --vp-nav-bg-color: transparent;
+//     --vp-local-search-bg: #fff;
+//     .VPSidebar:not(.open) {
+//         --vp-sidebar-bg-color: transparent;
+//     }
+//     --vp-c-bg: transparent;
+// }
 
 body {
     font-family: KoiFont, Helvetica, PingFang SC, Microsoft Yahei, sans-serif;
@@ -20,6 +20,6 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width:0;
-    height:0;
+    // width:0;
+    // height:0;
 }
