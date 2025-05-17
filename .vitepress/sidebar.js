@@ -25,6 +25,7 @@ export default {
                 { text: 'contenteditable可输入框', link: '/frontend/js/contenteditable' },
                 { text: '浏览器notification通知', link: '/frontend/js/browser_notification' },
                 { text: 'websocket心跳检测', link: '/frontend/js/websocket' },
+                { text: '图片压缩', link: '/frontend/js/image_compress' },
             ]
         }, {
             text: 'css篇',
